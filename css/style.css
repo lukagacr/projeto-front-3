@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 20px 0;
+}<style>
+body {
+    background-color: black;
+    color: white; /* Para garantir que o texto seja visível */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content {
+    max-width: 600px;
+}
+</style>
